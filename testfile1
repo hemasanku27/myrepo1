@@ -1,0 +1,5 @@
+SSH URLs provide access to a Git repository via SSH, a secure protocol. To use these URLs, you must generate an SSH keypair on your computer and add the public key to your account on GitHub.com. For more information, see "Connecting to GitHub with SSH."
+
+When you git clone, git fetch, git pull, or git push to a remote repository using SSH URLs, you'll be prompted for a password and must provide your SSH key passphrase. For more information, see "Working with SSH key passphrases."
+
+If you are accessing an organization that uses SAML single sign-on (SSO), you must authorize your SSH key to access the organization before you authenticate. For more information, see "About authentication with SAML single sign-on" and "Authorizing an SSH key for use with SAML single sign-on" in the GitHub Enterprise Cloud documentation.
